@@ -1,0 +1,161 @@
+body {
+  font-family: Poppins;
+}
+
+.categoryContainer {
+  position: relative;
+}
+
+.categoryContainer h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 5rem;
+}
+
+.categoryContainer p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #666666;
+  text-align: center;
+}
+
+.categoryContainer h1,
+.categoryContainer p {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* padding: 20px;
+  margin: 0 auto; */
+}
+
+/* Responsive styles for mobile and tablets */
+@media (max-width: 1200px) {
+  .card {
+    flex: 1 1 33%;
+    /* For 3 cards per row on larger screens */
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    flex: 1 1 50%;
+    /* For 2 cards per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 10px;
+    flex: 1 1 100%;
+    /* Full width for mobile */
+  }
+}
+
+.categoryContainer h1 {
+  font-size: 28px;
+}
+
+.card Img {
+  height: 480px;
+  width: 381px;
+ max-width: 100%;
+ max-height: 100%;
+  border-radius: 5px;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #333333;
+  padding-bottom: 2rem;
+  margin-top: 4rem;
+
+}
+
+.customSlider .slickNext {
+  right: -2rem;
+}
+
+.customSlider .slickPrev {
+  left: -2rem;
+}
+
+.customSlider .slickPrev,
+.customSlider .slickNext {
+  background-color: #FFFFFF;
+  font-size: 3rem;
+  color: #B88E2F;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  box-shadow: 0px 4px 14px 1px #00000029;
+  width: 48px;
+  height: 48px;
+}
+
+.customSlider .slickNext span,
+.customSlider .slickPrev span {
+padding-bottom: 10px;
+}
+
+/* النقاط غير النشطة */
+.customSlider .slick-dots li button:before {
+  font-size: 12px !important; /* حجم النقطة */
+  color: #ddd !important; /* اللون الرمادي للنقاط غير النشطة */
+  opacity: 1 !important; /* جعل النقاط غير النشطة مرئية بوضوح */
+  content: "●" !important; /* الرمز الدائري */
+  border: none !important; /* إزالة أي حدود */
+}
+
+/* النقطة النشطة */
+.customSlider .slick-dots li.slick-active button {
+  position: relative !important; /* ضروري لإضافة الدائرة حول النقطة */
+}
+
+.customSlider .slick-dots li.slick-active button:before {
+  color: #B88E2F !important; /* اللون الذهبي للنقطة النشطة */
+  content: "●" !important; /* النقطة في المنتصف */
+}
+
+/* إضافة دائرة حول النقطة النشطة */
+.customSlider .slick-dots li.slick-active button:after {
+  content: '' !important;
+  position: absolute !important;
+  top: -5px !important;
+  left: -5px !important;
+  width: 24px !important; /* حجم الدائرة */
+  height: 24px !important; /* حجم الدائرة */
+  border: 2px solid #B88E2F !important; /* اللون الذهبي للدائرة */
+  border-radius: 50% !important; /* لتكون دائرة كاملة */
+}

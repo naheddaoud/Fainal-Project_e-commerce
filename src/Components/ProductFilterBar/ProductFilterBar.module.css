@@ -1,0 +1,45 @@
+body {
+  font-family: Poppins;
+}
+
+.productFilterBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background: #F9F1E7;
+    height: 100px;
+
+  }
+  
+  .filterSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filterIcon {
+    margin-right: 0.5rem;
+    margin-left: 5rem;
+
+  }
+  
+  .resultsText {
+    margin-left: 8rem;
+  }
+  
+  .showSection {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .sortSection {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+  }
+  
+  .paginationSection {
+    margin-left: 1rem;
+  }
+  

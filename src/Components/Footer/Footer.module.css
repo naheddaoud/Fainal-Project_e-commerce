@@ -1,0 +1,98 @@
+body {
+  font-family: Poppins;
+}
+
+.footer {
+  width: Fixed (1, 440px)px;
+  height: 505px;
+  top: 1241px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.qualityBarContainer {
+  background-color: #FAF3EA;
+  padding: 1rem 0;
+  width: Fixed (1, 440px)px;
+  height: Fixed (270px)px;
+  top: 963px;
+  padding: 100px 0px 100px 0px;
+  gap: 0px;
+  justify-content: space-between;
+  opacity: 0px;
+  column-gap: 10px;
+}
+
+.qualityBarContainer h6 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.qualityBarContainer p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.funiroContainer {
+  width: Fixed (1, 440px)px;
+  height: 419px;
+  top: 48px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 100px 0px 100px 0px;
+}
+
+.h5 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.navLink {
+font-size: 16px!important;
+font-weight: 500!important;
+line-height: 24px !important;
+color: #000000 !important;
+
+}
+
+.enterEmailBox {
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  border-top: #FFFFFF;
+  border-left: #FFFFFF;
+  border-right: #FFFFFF;
+}
+
+.a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  border-top: #FFFFFF;
+  border-left: #FFFFFF;
+  border-right: #FFFFFF;
+  text-decoration-line: none;
+}
+
+.hr {
+  font-weight: bold;
+  margin-top: 1px;
+  border: 1px solid #D9D9D9
+}
+
+.li{
+font-size: 16px !important;
+font-weight: 500 !important;
+line-height: 24px !important;
+}

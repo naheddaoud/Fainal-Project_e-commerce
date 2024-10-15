@@ -1,0 +1,44 @@
+body {
+  font-family: Poppins;
+}
+.banerContainer {
+  background-color: #F9F1E7;
+  color: #F9F1E7;
+  padding: 2rem;
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  background-position: center;
+  text-align: center;
+  position: relative;
+}
+
+.contactContainer {
+  margin-bottom: 10rem;
+  padding-bottom: 16rem;
+}
+
+.contactTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.breadcrumbNav {
+  display: flex;
+  justify-content: left;
+  margin-top: 15px;
+}
+
+.breadcrumbNav .breadcrumbItem {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.breadcrumbNav .breadcrumbItem.active {
+  font-weight: bold;
+  color: #000;
+}

@@ -1,0 +1,120 @@
+.bannerContainer {
+  background-image: url(../../Assets/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding: 9rem 0;
+  margin: 0;
+}
+
+.bannerCard {
+  padding: 2rem;
+  background-color: #FFF3E3;
+  width: 643px;
+  height: 443px;
+  border-radius: 10px;
+
+}
+
+.bannerTitle {
+  color: #B88E2F;
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: left;
+
+}
+
+.bannerText {
+  color: #333333;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+
+}
+
+.bannerButton {
+  background-color: #B88E2F;
+  color: #FFFFFF;
+  border: none;
+  padding: 25px 72px 25px 72px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.productContaner {
+  background-color: #FCF8F3;
+  width: 1440px;
+  height: 670px;
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.productContaner h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+
+.productContaner p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.exploreButton {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 176px;
+  height: 48px;
+  background: #B88E2F;
+  border: none;
+  padding: 25px 72px 25px 72px
+}
+
+.galleryContainer {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.galleryContainer p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+
+.galleryContainer span {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+
+/* .imageGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+  justify-items: center;
+} */
+
+/* .imageGrid img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
